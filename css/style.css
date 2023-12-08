@@ -7,6 +7,15 @@
   max-width: 1050px;
 }
 
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1050px;
+}
+
 .card {
   flex: 1;
   display: flex;
@@ -14,5 +23,24 @@
   max-width: 240px;
   margin: 10px;
   padding: 20px;
-  background-color: #fff;
+  background-color: #000;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  max-width: 240px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #000;
+}
+
+
+.makeRed {
+  background-color: red;
+}
+
+.makeBlue {
+  background-color: blue;
 }
